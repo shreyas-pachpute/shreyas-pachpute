@@ -1,5 +1,5 @@
 <h1 align="center">🚀 Shreyas Pachpute</h1>
-<h3 align="center">GenAI Developer • AI/ML Engineer • RAG Architect</h3>
+<h3 align="center">GenAI Developer • AI/ML Engineer</h3>
 
 <p align="center">
   <a href="https://github.com/shreyas-pachpute">
