@@ -1,113 +1,87 @@
-<h1 align="center">🤖 Hi, I'm Shreyas Pachpute</h1>
-<h3 align="center">AI/ML Engineer | LLM Specialist | RAG Architect</h3>
+<h1 align="center">🚀 Shreyas Pachpute</h1>
+<h3 align="center">GenAI Developer • AI/ML Engineer • RAG Architect</h3>
 
 <p align="center">
-  <a href="https://twitter.com/shreyaspachpute" target="blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
+  <a href="https://github.com/shreyas-pachpute">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
   <a href="https://linkedin.com/in/shreyas-pachpute-b5882a204">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="https://kaggle.com/shreyaspachpute">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white">
+  <a href="https://twitter.com/shreyaspachpute">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
+  </a>
+  <a href="mailto:shreyaspachpute1107@gmail.com">
+    <img src="https://img.shields.io/badge/Email-­important?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=00F72F&center=true&vCenter=true&width=435&lines=LLM+Architect;AI+Workflow+Specialist;RAG+Bot+Developer;AWS+ML+Certified" alt="Header Typing SVG">
-</p>
+---
 
-### 🚀 About Me
+## 🔥 About Me
+I’m **Shreyas**, a results-driven AI/ML Engineer with 1.5+ years of hands-on experience building GenAI applications, Retrieval-Augmented Generation bots, and scalable LLM pipelines. Passionate about turning cutting-edge research into production-grade microservices, multi-GPU workflows, and intelligent agents that make an impact.
 
-```python
-class AIEngineer:
-    def __init__(self):
-        self.name = "Shreyas Pachpute"
-        self.role = "AI/ML Engineer"
-        self.focus = "Large Language Models | RAG Systems | AI Agents"
-        self.current_work = "Optimizing LLMs for multi-GPU environments @ Commercient"
-        self.education = "BE Computer Science @ SCET (CGPA: 8.3/10)"
-        self.passions = [
-            "Building intelligent AI workflows",
-            "Developing production-ready RAG systems",
-            "Creating adaptive learning agents"
-        ]
-    
-    def skills(self):
-        return {
-            "Languages": ["Python", "SQL", "JavaScript"],
-            "ML Stack": ["PyTorch", "TensorFlow", "HuggingFace"],
-            "LLM Tools": ["LangChain", "LlamaIndex", "Haystack"],
-            "Cloud": ["AWS", "Docker", "Kubernetes"],
-            "Data": ["Pandas", "Spark", "Dask"]
-        }
+- 🎓 **BE Computer Science**, SCET Surat (CGPA: 8.3/10)  
+- 💼 **AI/ML Engineer @ Commercient** (Jan 2024–Present)  
+- 🌱 Continuously exploring: LLM optimization, dynamic batching, hybrid retrieval, agentic workflows
 
-me = AIEngineer()
-```
-### 🛠️ Technical Arsenal
+---
 
-#### **Languages & Frameworks**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+## 🛠️ Core Skills
 
-#### **AI/ML Tools**
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge&logo=langchain&logoColor=white)
-![AWS SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+| Category           | Tools & Technologies                                                  |
+| ------------------ | --------------------------------------------------------------------- |
+| **Languages**      | Python • SQL • C# • JavaScript                                        |
+| **AI/ML Frameworks** | PyTorch • TensorFlow • Hugging Face • DeepSpeed                     |
+| **GenAI & RAG**    | LangChain • LlamaIndex • Haystack • FAISS • VLLM                      |
+| **Agents & Automation** | LangGraph • RLlib • OpenAI Tools • Prefect • Airflow           |
+| **Infrastructure** | AWS (SageMaker, Lambda, Batch) • Docker • Kubernetes • NVIDIA Triton  |
+| **Data & DevOps**  | Pandas • Spark • Dask • Git • REST APIs • GraphQL                     |
 
-#### **Databases & Cloud**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+---
 
+## 🚀 Featured Projects
 
-### 🧠 Featured AI Projects
+### 🔹 AYUNEXA — AI-Powered Healthcare Eco-System  
+> A unified platform for patients, doctors, and facilities to collaborate seamlessly.  
+- 🏥 Multi-role workflows: appointment booking, records ingestion, tele-consultation  
+- 🖼️ DICOM-aware pipelines with Grad-CAM visualizations  
+- ⚙️ Tech: TensorFlow, PyTorch, AWS SageMaker, React, FastAPI  
 
-#### **1. Enterprise RAG Bot System** [![RAG](https://img.shields.io/badge/RAG-Advanced-blue)](https://github.com/your-repo)
-- Built multi-modal RAG system handling 10M+ documents
-- Achieved 92% query accuracy with hybrid retrieval (dense + sparse)
-- Tech Stack: Llama-2, FAISS, Haystack, AWS Batch
+### 🔹 TRADENEXA — Autonomous Multi-Agent Trading System  
+> A reinforcement-learning driven framework for real-time market making and execution.  
+- 🤖 Multi-agent orchestration with ZeroMQ messaging  
+- 📈 Live back-testing, risk-adjusted reward engineering  
+- ⚙️ Tech: Python, RLlib, Pandas, NumPy, Docker, Kubernetes  
 
-#### **2. LLM Optimization Framework** [![LLM](https://img.shields.io/badge/LLM-Optimized-green)](https://github.com/your-repo)
-- Reduced LLM inference latency by 40% using model parallelism
-- Implemented dynamic batching for multi-GPU environments
-- Tools: DeepSpeed, PyTorch Distributed, NVIDIA Triton
+### 🔹 URBANEXA — Smart City Traffic & Emergency Response  
+> An agentic network optimizing traffic signals and dispatching first responders.  
+- 🚦 Dynamic signal control via reinforcement learning  
+- 🚑 Emergency rerouting & resource allocation in real time  
+- ⚙️ Tech: JavaScript, IoT (MQTT), ROS, OpenStreetMap, PyTorch  
 
-#### **3. Adaptive Learning Path Generator** [![AI Agent](https://img.shields.io/badge/AI_Agent-Personalized-orange)](https://github.com/your-repo)
-- Knowledge graph-based recommendation engine
-- Integrated with 5+ MOOC platforms via API
-- Stack: Neo4j, GPT-4, LangChain
+---
 
-### 📈 GitHub Stats & Activity
+## 📈 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shreyasp-07&show_icons=true&theme=vision-friendly-dark&count_private=true"/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=shreyasp-07&theme=vision-friendly-dark"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=shreyas-pachpute&show_icons=true&theme=vision-friendly-dark&count_private=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreyas-pachpute&theme=vision-friendly-dark" height="160" />
 </p>
 
 ---
 
-### 🏆 Certifications
+## 🏆 Certifications
 
-[![AWS Certified ML](https://img.shields.io/badge/AWS_ML-Certified-FF9900?style=for-the-badge&logo=amazonaws)](https://www.credly.com/badges/...)
-[![Kaggle Expert](https://img.shields.io/badge/Kaggle-Expert-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/...)
-
----
-
-### 💡 Latest AI Insights
-<!-- BLOG-POST-LIST:START -->
-- [Optimizing LLM Inference for Production Workloads](https://your-blog.com/llm-optimization)
-- [Building Enterprise-grade RAG Systems: Lessons Learned](https://your-blog.com/rag-systems)
-- [When to Use AI Agents vs Traditional ML Models](https://your-blog.com/ai-agents)
-<!-- BLOG-POST-LIST:END -->
+[![AWS Certified ML Specialty](https://img.shields.io/badge/AWS_ML-Certified-FF9900?style=for-the-badge&logo=amazonaws)](https://www.credly.com/badges/...)  
+[![Kaggle Expert](https://img.shields.io/badge/Kaggle-Expert-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/shreyaspachpute)
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shreyasp-07&label=PROFILE+VIEWS&color=blue&style=flat" alt="Profile views"/>
-  <a href="mailto:shreyaspachpute2002@gmail.com">
-    <img src="https://img.shields.io/badge/Email%20Me-!-important?style=flat&logo=gmail"/>
-  </a>
-</p>
+## 📫 How to Reach Me
+
+- 🔗 Portfolio: [shreyaspachpute.com](https://shreyaspachpute.com)  
+- ✉️ Email: **shreyaspachpute1107@gmail.com**  
+- 🌍 Location: Surat, Gujarat, India  
+
+> “Building intelligent workflows that bridge research and real-world impact.”  
