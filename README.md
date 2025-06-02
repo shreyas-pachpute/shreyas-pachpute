@@ -80,7 +80,7 @@ I’m **Shreyas**, a results-driven AI/ML Engineer with 1.5+ years of hands-on e
 
 ## 📫 How to Reach Me
 
-- 🔗 Portfolio: [shreyaspachpute.com](https://shreyaspachpute.com)  
+- 🔗 Portfolio: [shreyaspachpute.com](https://shreyas-pachpute.github.io/)  
 - ✉️ Email: **shreyaspachpute1107@gmail.com**  
 - 🌍 Location: Surat, Gujarat, India  
 
