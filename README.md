@@ -82,23 +82,8 @@ AI Engineer & AWS ML-Specialist with deep expertise in GenAI/LLMs. I architect a
 - 🚑 Emergency rerouting & resource allocation in real time  
 - ⚙️ Tech: JavaScript, IoT (MQTT), ROS, OpenStreetMap, PyTorch  
 
-<p align="center">
-  <img src="https://pajamas.dev/lottie/rocket.json" alt="Rocket Animation" width="300"/>
-</p>
-
 ---
 
 <p align="center" style="margin-top:2rem; font-size:0.9em; color:#555;">
   Crafted with ❤️ and ensured for high impact.
 </p>
-
-<!-- Animations & Hover CSS -->
-<style>
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-.wave { display: inline-block; animation: wave-animation 2s infinite; transform-origin: 70% 70%; }
-@keyframes wave-animation { 0% { transform: rotate(0deg);} 15% { transform: rotate(14deg);} 30% { transform: rotate(-8deg);} 45% { transform: rotate(14deg);} 60% { transform: rotate(-4deg);} 75% { transform: rotate(10deg);} 100% { transform: rotate(0deg);} }
-.name-highlight { background: linear-gradient(90deg, #0077B5, #100000); -webkit-background-clip: text; color: transparent; }
-.btn-hover:hover { transform: scale(1.05); transition: transform 0.3s ease; }
-.skill-card { background: #f5f5f5; padding: 0.6rem 1rem; border-radius: 0.5rem; box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
-.skill-card:hover { transform: translateY(-4px); box-shadow: rgba(60,64,67,0.4) 0px 4px 6px 2px; }
-</style>
