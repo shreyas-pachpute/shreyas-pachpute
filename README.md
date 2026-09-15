@@ -1,128 +1,36 @@
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=shreyas-pachpute&color=blue&style=flat-square" alt="Profile Views" />
-  
-  <br />
-  <br />
-
-  <h1>Hi, I'm Shreyas Pachpute</h1>
-  <h3>AI Architect & GenAI Systems Engineer</h3>
-  
+  <h1>Shreyas Pachpute</h1>
+  <h3>AI Product Engineer · AI systems for business</h3>
+  <p><b>I build AI systems that take the manual work out of your business.</b><br>
+  One engineer, end to end: agents, document intelligence and automation, built inside the software you already run.</p>
   <p>
-    <b>Building production RAG, multi-agent workflows, and cost-optimized LLM inference on AWS.</b><br>
-    Specialized in moving GenAI from prototypes to scalable, observable systems.
-  </p>
-
-  <p>
-    <b>150+</b> tok/sec on vLLM &nbsp;|&nbsp; 
-    <b>$15K+</b> infra savings &nbsp;|&nbsp; 
-    <b><300ms</b> RAG p95 latency
-  </p>
-
-  <p>
-    <a href="https://linkedin.com/in/shreyas-pachpute-b5882a204">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
-    <a href="https://shreyas-pachpute.github.io">
-      <img src="https://img.shields.io/badge/Portfolio-View_Live-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
-    </a>
-    <a href="mailto:shreyaspachpute1107@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact_Me-C71610?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-    </a>
+    <a href="https://shreyaspachpute.in"><img src="https://img.shields.io/badge/shreyaspachpute.in-Portfolio-14161c?style=for-the-badge" alt="Portfolio"></a>
+    <a href="https://www.linkedin.com/in/shreyaspachpute/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="https://shreyas-pachpute.medium.com/"><img src="https://img.shields.io/badge/Medium-Writing-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+    <a href="https://calendly.com/shreyaspachpute1107/30min"><img src="https://img.shields.io/badge/Book_a_call-30_min-2e4be8?style=for-the-badge" alt="Book a call"></a>
   </p>
 </div>
 
-<br />
+## Two products in production
 
-## 🎯 What I Build
-I design enterprise-grade GenAI systems. My focus is not just on model accuracy, but on **inference latency, infrastructure cost, and system reliability**.
+**Commercient AI** · Commercient Sync · AI Engineer · Jan 2024 – Mar 2026
+AI agents inside a live ERP-to-CRM integration platform: a Support Agent with ERP/CRM context, a LangGraph Sales Agent that replaced a third-party bot costing about $12k a month, a SQL View Generator over synced data, and a self-serve bot-builder. Open-weight LLMs served on the company's own GPUs with vLLM; retrieval and fine-tuning for domain tasks; shipped inside the existing .NET product. [Case study →](https://shreyaspachpute.in/work/commercient-ai)
 
-**Recent Engineering Impact:**
-- 🚀 **Multi-agent Support System**: 70% ticket deflection, 85% auto-resolution rate.
-- 💰 **vLLM Optimization**: $15K annual savings vs. commercial APIs via g5.xlarge instances.
-- ⚡ **Enterprise RAG**: <300ms p95 latency at 50K queries/day, 94% classification accuracy.
-- ☁️ **AWS Infra**: Containerized deployments (ECS/Lambda) with 99.8% uptime.
+**DTAXO** · ZYLITIX · AI Product Engineer · Mar 2026 – present
+The AI backend of a tax-prep automation platform for CPA firms: document classification and extraction from any document in any condition (W-2, 1099 family, 1098, K-1, brokerage PDFs, scans), workpaper generation, AI prep and first-level review, and the re-run flow for corrected documents. Every value traces back to its source. Platform figures per dtaxo.com: 8,000+ returns processed, 119 CPA firms. [Case study →](https://shreyaspachpute.in/work/dtaxo)
 
----
+## Two projects built in the open
 
-## 🏗️ Architecture Showcase
+| | |
+|---|---|
+| **[Dispatch](https://github.com/shreyas-pachpute/dispatch)** | An AI operations team for businesses that run on email, PDFs and spreadsheets. Seven agents, context packs, verbatim-quote citations validated against the document, a YAML approval matrix, memory written only from outcomes, a live control room. Runs with your own key or a keyless mock. MIT. |
+| **[Roundtable](https://github.com/shreyas-pachpute/roundtable)** | A multi-agent proposal team: nine agents around an owned, versioned blackboard, a Chair-run protocol with limits, fan-out estimation, objections with evidence, an Arbiter, and a seat for the human. Send it an RFP; get the proposal, the price, the risks and the minutes. MIT. |
 
-These repositories demonstrate production standards: **Architecture Diagrams**, **Metrics**, and **Infrastructure-as-Code**.
+## How I work
 
-### 🔹 [Production RAG Engine (HSN Classifier)](https://github.com/shreyas-pachpute/production-rag-hsn-classifier)
-> Enterprise-grade retrieval system with hybrid search and reranking.
+Start with the problem, not the tool. Cite everything. Evaluate everything. Keep a person in the loop by policy, not by vibes.
 
-- **Architecture**: Hybrid Search (BM25 + Semantic) → Cross-Encoder Reranking → Redis Cache.
-- **Metrics**: **94% accuracy**, 80% manual time reduction, sub-300ms latency.
-- **Stack**: ChromaDB, Sentence-Transformers, FastAPI, AWS Lambda.
+**Stack:** Python · LangGraph · Claude and OpenAI APIs · vLLM · RAG · fine-tuning · MCP · FastAPI · .NET · SQL / Postgres · Next.js · Docker · AWS
+**Credentials:** AWS Certified Machine Learning – Specialty (2024) · Amazon ML Summer School 2023 · B.E. Computer Science, Sarvajanik College of Engineering & Technology, Surat (2020–2024)
 
-### 🔹 [Multi-Agent Support System](https://github.com/shreyas-pachpute/multi-agent-support-system)
-> AutoGen-based workflow orchestration with circuit breakers.
-
-- **Architecture**: Orchestrator → Diagnostic Agent → Policy Agent → Escalation Handler.
-- **Metrics**: **70% ticket deflection**, 85% auto-resolution.
-- **Stack**: AutoGen, LangChain, Redis Queues, Docker, Prometheus.
-
-### 🔹 [vLLM Inference Optimizer](https://github.com/shreyas-pachpute/vllm-inference-optimizer)
-> Cost-optimized Llama 3 deployment with dynamic batching.
-
-- **Architecture**: AWS g5.xlarge + vLLM (PagedAttention) + GPTQ Quantization.
-- **Metrics**: **150 tok/sec throughput**, $15K annual savings, 87% GPU utilization.
-- **Stack**: vLLM, PyTorch, CUDA, Terraform, Grafana.
-
----
-
-## 💼 Professional Experience
-
-### Commercient LLC · AI Architect & Engineer (Jan 2024 – Present)
-
-**Dynamic RAG Platform & HSN Classification**
-- Architected a multi-tenant RAG system ingesting 10K+ docs/day with sub-300ms response latency.
-- Built a classifier achieving **94% accuracy** on product codes, reducing manual work by **80%**.
-- **Tech**: Pinecone, LangChain, FastAPI, AWS Lambda.
-
-**LLM Inference Infrastructure**
-- Engineered self-hosted inference for Llama 3 on AWS g5.xlarge using vLLM.
-- Achieved **150 tok/sec throughput** and a **40% cost reduction** vs OpenAI APIs.
-- **Tech**: vLLM, Docker, CUDA, AWS EC2, Prometheus.
-
-**Production AI Agents**
-- **Sales Agent**: drove **40% increase** in qualified leads via HubSpot integration.
-- **Support Agent**: achieved **70% ticket deflection** rate via Zendesk sync.
-- **Tech**: AutoGen, LangChain, Redis, PostgreSQL.
-
----
-
-## 🔧 Technical Stack
-
-| Area | Technologies |
-|:---:|:---|
-| **GenAI Systems** | LangChain, LlamaIndex, AutoGen, vLLM, HuggingFace, OpenAI API |
-| **Vector Database** | Pinecone, ChromaDB, Qdrant, Milvus |
-| **Backend & API** | Python, FastAPI, Microservices, RabbitMQ, C# (.NET) |
-| **Cloud & Infra** | AWS (SageMaker, Lambda, ECS, EC2), Docker, Kubernetes, Terraform |
-| **MLOps** | MLflow, DVC, Prometheus, Grafana, GitHub Actions |
-
----
-
-## 🚧 Currently Building
-
-- 📊 **LLM A/B Testing Framework**: Statistical significance testing for prompts using MLflow.
-- 🔄 **Fine-tuning MLOps Pipeline**: Automated LoRA training on SageMaker with DVC.
-- 📈 **Cost-Optimized Embedding Pipeline**: Batch processing 1M docs at 10x lower cost.
-
----
-
-## 💼 Open to Opportunities
-
-🔍 **Seeking:** Senior AI Architect / Principal GenAI Engineer  
-🎯 **Focus:** RAG systems, LLM infrastructure, Multi-agent workflows, AWS  
-🌍 **Location:** Remote (US/Europe preferred)
-
-[**View My Full Portfolio Website**](https://shreyas-pachpute.github.io) | [**Download Resume**](https://shreyas-pachpute.github.io/documents/Shreyas_Pachpute_Resume.pdf)
-
-<!-- Footer -->
-<div align="center">
-  <br>
-  <img src="https://img.shields.io/github/followers/shreyas-pachpute?style=social" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/shreyas-pachpute?style=social" alt="GitHub Stars" />
-</div>
+<p align="center"><a href="https://shreyaspachpute.in">shreyaspachpute.in</a> · Surat, India · remote, any time zone</p>
